@@ -1,0 +1,36 @@
+.WeatherTimeDate{
+    margin-top: 4%;
+}
+
+.dateDisplay{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    background-color:#FF4ADE;
+    padding: 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.Weather{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    padding: 5px 10px;
+    background-color: #101744;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.pressure, .humidity{
+    font-size: 14px;
+}
+
+.pressure pre, .humidity pre{
+    font-family: 'DM Sans', sans-serif;
+    text-align: start;
+}

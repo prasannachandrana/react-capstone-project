@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Roboto&family=Single+Day&display=swap');
+
+.RegisterForm {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    gap: 0.5rem;
+}
+
+.data {
+    width: 60%;
+    height: 2.5rem;
+    margin: 1%;
+    padding-left: 2%;
+    background-color: #292929;
+    border: #292929;
+    color: #fff;
+}
+
+#btn {
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%;
+    height: 3rem;
+    color: white;
+    background-color: #72DB73;
+    border: #72DB73;
+    border-radius: 24px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#title {
+    color: #72DB73;
+    font-family: 'Single Day', cursive;
+    font-size: 50px;
+}
+
+#checkboxx {
+    display: flex;
+    position: relative;
+    right: 7%;
+    color: #7C7C7C
+}
+
+#checkbox {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.green {
+    color: #72DB73;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    #checkboxx {
+        right: 0%;
+    }
+
+    .data {
+        width: 80%;
+    }
+
+    .error {
+        font-size: 10px;
+    }
+}

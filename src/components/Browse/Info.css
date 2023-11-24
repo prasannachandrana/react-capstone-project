@@ -1,0 +1,37 @@
+.info {
+    display: flex;
+    width: 30vw;
+    background-color: #5746EA;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.profile_img {
+    height: 28vh;
+    padding: 1vh;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 5%;
+    line-height: 1.5;
+}
+
+.user_genre {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    width: 23vw;
+}
+
+.user_genre p {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px
+}

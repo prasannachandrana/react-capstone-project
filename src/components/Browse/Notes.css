@@ -1,0 +1,26 @@
+
+.text{
+    display: inline-block;
+    background-color: #F1C75B;
+    outline: #F1C75B;
+    border: #F1C75B;
+    width: 25vw;
+    height: 36vh;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    resize: none;
+}
+.disabledText{
+    background-color: #F1C75B;
+    border-radius: 10px 10px 0px 0px;
+    border: #F1C75B;
+    outline: #F1C75B;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    width: 25vw;
+    
+}
